@@ -16,24 +16,27 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	       	/**
-		 * checks if n is more than 0
+		* checks if n is more than 0
 		*/
 	{
 		printf("%d is positive\n", n);
 	}
-	else if (n == 0) /**
-			  *checks if n is equal to 0 
-			  */
+	else if (n == 0) 
+		/**
+		*checks if n is equal to 0 
+		*/
 	{
 		printf("%d is zero\n", n);
 	}
-	else if (n < 0) /**
-			 * checks if n is less than 0 
-			 * */
+	else if (n < 0) 
+		/**
+		* checks if n is less than 0 
+		*/
 	{
 		printf("%d is negative\n", n);
 	}
-	return (0); /**
-		      *return successful
-		      */
+	return (0); 
+		/**
+		*return successful
+		*/
 }
