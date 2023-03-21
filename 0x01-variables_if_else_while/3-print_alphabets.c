@@ -21,7 +21,7 @@ int main(void)
 	/**
 	*Print Uppercase letter 'A' to 'Z'
 	*/
-	for (c ='A'; c <= 'Z'; ++c)
+	for (c = 'A'; c <= 'Z'; ++c)
 	{
 		putchar(c);
 	}
@@ -29,6 +29,5 @@ int main(void)
 	*Print new line character
 	*/
 		putchar('\n');
-	
 	return (0);
 }
