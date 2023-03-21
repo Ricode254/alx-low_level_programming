@@ -11,6 +11,7 @@ int main(void)
 {
 	int i;
 	for (i = 0; i < 10; i++)
+
 		/**
 		* innitializing variable
 		*/
@@ -19,8 +20,8 @@ int main(void)
 	}
 	printf("\n");
 		/**
-                * adding new line 
-                */
+		* adding new line
+		*/
 	return (0);
 
 
