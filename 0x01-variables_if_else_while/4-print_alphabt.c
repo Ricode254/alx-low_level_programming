@@ -16,13 +16,12 @@ int main(void)
 	for (c = 'a'; c <= 'z'; ++c)
 	{
 		if (c != 'q' && c != 'e')
-		/**
-                * check if character is q or e
-                */
-		{
+			/**
+                	* check if character is q or e
+                	*/
 			putchar(c);
-		}
-		putchar('\n');
 	}
-return (0);
+	putchar('\n');
+
+	return (0);
 }
