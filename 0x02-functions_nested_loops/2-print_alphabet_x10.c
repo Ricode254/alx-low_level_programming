@@ -14,7 +14,7 @@ void print_alphabet_x10(void)
 	char c;
 	int i;
 	/* The programmer uses the for while loop to write the code of the functio*/
-	for (i = 0; i <= 10; ++i)
+	for (i = 0; i <= 9; ++i)
 	{
 		c = 'a';
 		while (c <= 'z')
