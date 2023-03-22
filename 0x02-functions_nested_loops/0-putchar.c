@@ -9,7 +9,6 @@
  * Return: 0 on success, otherwise a non-zero value
  */
 int main(void)
-	/* Code to print a character using _putchar */
 {
 	_putchar('_');
 	_putchar('p');
