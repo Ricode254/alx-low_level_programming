@@ -4,7 +4,7 @@
 #include <time.h>
 
 /**
- * __isalpha(int c) - This is a function that
+ * __isalpha - This is a function that
  * checks for alphabetic characters
  * @c: single letter input
  * Return: 1 if c is a letter, lowercase or uppercase, 0 if otherwise
