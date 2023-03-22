@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * main - Print_putchar in anew line without using print(f) function
+ * main - Entry point of the program
  *
- * Return: Always 0.
+ * This function is the entry point of the program and prints a character using
+ * the _putchar function.
+ *
+ * Return: 0 on success, otherwise a non-zero value
  */
 int main(void)
-	/**
-	* funtion main printing _putchar using _putchar function
-	*/
+	/* Code to print a character using _putchar */
 {
 	_putchar('_');
 	_putchar('p');
